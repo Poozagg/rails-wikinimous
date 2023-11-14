@@ -7,4 +7,13 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "posts#index"
+
+  # INDEX - LIST ALL [GET]
+  get '/articles', to: 'articles#index'
+
+  # CREATE NEW [GET + POST]
+
+  # UPDATE [GET + PATCH]
+
+  # DELETE [DESTROY ACTION]
 end
